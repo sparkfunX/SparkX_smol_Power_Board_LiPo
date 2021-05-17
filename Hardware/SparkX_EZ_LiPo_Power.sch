@@ -9855,6 +9855,7 @@ Output discharge: 60Ω</text>
 Pin 4 is COPI and Pin 5 is CIPO when the chip is in peripheral mode or is being programmed
 Pin 4 is CIPO and Pin 5 is COPI when the chip is operating in controller mode
 The #defines in the ATTinyCore assume controller mode</text>
+<wire x1="154.94" y1="0" x2="154.94" y2="190.5" width="0.2032" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -10037,54 +10038,54 @@ The #defines in the ATTinyCore assume controller mode</text>
 <instance part="VIN" gate="G$1" x="304.8" y="241.3" smashed="yes">
 <attribute name="NAME" x="304.8" y="243.84" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U1" gate="G$1" x="203.2" y="101.6" smashed="yes">
-<attribute name="NAME" x="201.93" y="115.57" size="1.778" layer="95"/>
-<attribute name="VALUE" x="193.04" y="83.82" size="1.778" layer="96"/>
+<instance part="U1" gate="G$1" x="73.66" y="101.6" smashed="yes">
+<attribute name="NAME" x="72.39" y="115.57" size="1.778" layer="95"/>
+<attribute name="VALUE" x="63.5" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="238.76" y="93.98" smashed="yes">
-<attribute name="VALUE" x="238.76" y="96.774" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="109.22" y="93.98" smashed="yes">
+<attribute name="VALUE" x="109.22" y="96.774" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND7" gate="1" x="182.88" y="83.82" smashed="yes">
-<attribute name="VALUE" x="182.88" y="83.566" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND7" gate="1" x="53.34" y="83.82" smashed="yes">
+<attribute name="VALUE" x="53.34" y="83.566" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C5" gate="G$1" x="238.76" y="68.58" smashed="yes">
-<attribute name="NAME" x="240.284" y="71.501" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="240.284" y="66.421" size="1.778" layer="96" font="vector"/>
+<instance part="C5" gate="G$1" x="109.22" y="68.58" smashed="yes">
+<attribute name="NAME" x="110.744" y="71.501" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="110.744" y="66.421" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="L1" gate="G$1" x="231.14" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="228.6" y="77.47" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="233.68" y="77.47" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="L1" gate="G$1" x="101.6" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="99.06" y="77.47" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="104.14" y="77.47" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="D3" gate="G$1" x="203.2" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="201.422" y="72.6186" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="193.548" y="77.9526" size="1.778" layer="96" font="vector"/>
+<instance part="D3" gate="G$1" x="73.66" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="71.882" y="72.6186" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="64.008" y="77.9526" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C7" gate="G$1" x="177.8" y="68.58" smashed="yes">
-<attribute name="NAME" x="179.324" y="71.501" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="179.324" y="66.421" size="1.778" layer="96" font="vector"/>
+<instance part="C7" gate="G$1" x="48.26" y="68.58" smashed="yes">
+<attribute name="NAME" x="49.784" y="71.501" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="49.784" y="66.421" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND8" gate="1" x="177.8" y="60.96" smashed="yes">
-<attribute name="VALUE" x="177.8" y="60.706" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND8" gate="1" x="48.26" y="60.96" smashed="yes">
+<attribute name="VALUE" x="48.26" y="60.706" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND9" gate="1" x="238.76" y="60.96" smashed="yes">
-<attribute name="VALUE" x="238.76" y="60.706" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND9" gate="1" x="109.22" y="60.96" smashed="yes">
+<attribute name="VALUE" x="109.22" y="60.706" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="C8" gate="G$1" x="187.96" y="68.58" smashed="yes">
-<attribute name="NAME" x="189.484" y="71.501" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="189.484" y="66.421" size="1.778" layer="96" font="vector"/>
+<instance part="C8" gate="G$1" x="58.42" y="68.58" smashed="yes">
+<attribute name="NAME" x="59.944" y="71.501" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="59.944" y="66.421" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND10" gate="1" x="187.96" y="60.96" smashed="yes">
-<attribute name="VALUE" x="187.96" y="60.706" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND10" gate="1" x="58.42" y="60.96" smashed="yes">
+<attribute name="VALUE" x="58.42" y="60.706" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="J3" gate="G$1" x="200.66" y="139.7" smashed="yes">
-<attribute name="NAME" x="195.58" y="145.288" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="182.88" y="147.574" size="1.778" layer="96" font="vector"/>
+<instance part="J3" gate="G$1" x="71.12" y="139.7" smashed="yes">
+<attribute name="NAME" x="66.04" y="145.288" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="53.34" y="147.574" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND11" gate="1" x="213.36" y="132.08" smashed="yes">
-<attribute name="VALUE" x="213.36" y="131.826" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND11" gate="1" x="83.82" y="132.08" smashed="yes">
+<attribute name="VALUE" x="83.82" y="131.826" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="AT_VCC" gate="G$1" x="220.98" y="142.24" smashed="yes">
-<attribute name="NAME" x="215.9" y="144.78" size="1.778" layer="95" font="vector"/>
+<instance part="AT_VCC" gate="G$1" x="91.44" y="142.24" smashed="yes">
+<attribute name="NAME" x="86.36" y="144.78" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="FG_SDA" gate="G$1" x="414.02" y="241.3" smashed="yes">
 <attribute name="NAME" x="408.94" y="243.84" size="1.778" layer="95" font="vector"/>
@@ -10197,30 +10198,30 @@ The #defines in the ATTinyCore assume controller mode</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="185.42" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="182.88" y1="88.9" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="88.9" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="177.8" y1="66.04" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="66.04" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="238.76" y1="66.04" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="66.04" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="187.96" y1="66.04" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="66.04" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="210.82" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="213.36" y1="137.16" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="137.16" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -10368,13 +10369,13 @@ The #defines in the ATTinyCore assume controller mode</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="D4/DI/COPI/SDA"/>
-<wire x1="185.42" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
-<label x="182.88" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="55.88" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
+<label x="53.34" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="210.82" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
-<label x="213.36" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="81.28" y1="139.7" x2="83.82" y2="139.7" width="0.1524" layer="91"/>
+<label x="83.82" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10395,13 +10396,13 @@ The #defines in the ATTinyCore assume controller mode</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="D6/SCK/SCL"/>
-<wire x1="185.42" y1="96.52" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
-<label x="182.88" y="96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="55.88" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
+<label x="53.34" y="96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="193.04" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
-<label x="190.5" y="139.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="139.7" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
+<label x="60.96" y="139.7" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -10549,8 +10550,8 @@ The #defines in the ATTinyCore assume controller mode</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="A3/D11"/>
-<wire x1="220.98" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
-<label x="223.52" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="91.44" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="93.98" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -10581,82 +10582,82 @@ The #defines in the ATTinyCore assume controller mode</text>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="VIN"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="93.98" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="93.98" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="91.44" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="76.2" x2="238.76" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<junction x="238.76" y="76.2"/>
+<wire x1="109.22" y1="91.44" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="76.2" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<junction x="109.22" y="76.2"/>
 <pinref part="U1" gate="G$1" pin="VBAT"/>
-<wire x1="220.98" y1="91.44" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
-<junction x="238.76" y="91.44"/>
+<wire x1="91.44" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
+<junction x="109.22" y="91.44"/>
 </segment>
 </net>
 <net name="AT_VCC" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="185.42" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="91.44" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="91.44" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="91.44" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="177.8" y1="76.2" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="76.2" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
-<junction x="177.8" y="76.2"/>
+<wire x1="48.26" y1="76.2" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<junction x="48.26" y="76.2"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="73.66" x2="187.96" y2="76.2" width="0.1524" layer="91"/>
-<junction x="187.96" y="76.2"/>
-<wire x1="177.8" y1="91.44" x2="175.26" y2="91.44" width="0.1524" layer="91"/>
-<junction x="177.8" y="91.44"/>
-<label x="175.26" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="58.42" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="73.66" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<junction x="58.42" y="76.2"/>
+<wire x1="48.26" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
+<junction x="48.26" y="91.44"/>
+<label x="45.72" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="AT_VCC" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
-<label x="228.6" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="96.52" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
+<label x="99.06" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="LSW"/>
-<wire x1="220.98" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="88.9" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="88.9" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="205.74" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
-<junction x="223.52" y="76.2"/>
+<wire x1="76.2" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
+<junction x="93.98" y="76.2"/>
 </segment>
 </net>
 <net name="!RESET!" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="193.04" y1="137.16" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
-<label x="190.5" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
+<label x="60.96" y="137.16" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="!RESET!/D15"/>
-<wire x1="220.98" y1="111.76" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
-<label x="223.52" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="91.44" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
+<label x="93.98" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="AT_VCC" gate="G$1" pin="1"/>
 <pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="142.24" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AT_CIPO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="D5/DO/CIPO"/>
-<wire x1="185.42" y1="99.06" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
-<label x="182.88" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="55.88" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
+<label x="53.34" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="142.24" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
-<label x="190.5" y="142.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="142.24" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
+<label x="60.96" y="142.24" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10670,24 +10671,13 @@ The #defines in the ATTinyCore assume controller mode</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,243.84,231.14,J1,1,GND,,,"/>
-<approved hash="104,1,243.84,233.68,J1,2,3.3V,,,"/>
-<approved hash="113,1,169.587,195.58,1,,,,,"/>
-<approved hash="113,1,169.587,200.66,2,,,,,"/>
-<approved hash="113,1,169.587,205.74,3,,,,,"/>
-<approved hash="113,1,169.587,210.82,4,,,,,"/>
-<approved hash="113,1,169.587,215.9,5,,,,,"/>
-<approved hash="113,1,169.587,220.98,6,,,,,"/>
-<approved hash="113,1,169.587,226.06,7,,,,,"/>
-<approved hash="113,1,169.587,231.14,8,,,,,"/>
-<approved hash="113,1,118.703,231.14,9,,,,,"/>
-<approved hash="113,1,118.703,226.06,10,,,,,"/>
-<approved hash="113,1,118.703,220.98,11,,,,,"/>
-<approved hash="113,1,118.703,215.9,12,,,,,"/>
-<approved hash="113,1,118.703,210.82,13,,,,,"/>
-<approved hash="113,1,118.703,205.74,14,,,,,"/>
-<approved hash="113,1,118.703,200.66,15,,,,,"/>
-<approved hash="113,1,118.703,195.58,16,,,,,"/>
+<approved hash="104,1,185.42,246.38,U2,VIN,V_USB,,,"/>
+<approved hash="104,1,205.74,246.38,U2,VBAT,V_BATT,,,"/>
+<approved hash="104,1,205.74,241.3,U2,VSS,GND,,,"/>
+<approved hash="104,1,55.88,91.44,U1,VCC,AT_VCC,,,"/>
+<approved hash="104,1,91.44,88.9,U1,LSW,N$2,,,"/>
+<approved hash="104,1,91.44,91.44,U1,VBAT,VIN,,,"/>
+<approved hash="113,1,239.954,236.769,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
