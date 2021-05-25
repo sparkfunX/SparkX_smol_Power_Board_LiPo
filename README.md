@@ -3,7 +3,7 @@
 A power board for EZ:
 - LiPo battery connector and charger
 - Fuel gauge
-- ATtiny43 for intelligent power management
+- ATtiny841 for intelligent power management
 
 ![Top.png](./img/Top.png)
 ![Bottom.png](./img/Bottom.png)
