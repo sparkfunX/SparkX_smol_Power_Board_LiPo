@@ -211,24 +211,6 @@ HASL Finish
 <wire x1="2.54" y1="32.639" x2="3.556" y2="32.639" width="0.2032" layer="21"/>
 <wire x1="7.112" y1="32.639" x2="8.128" y2="32.639" width="0.2032" layer="21"/>
 <wire x1="7.62" y1="32.131" x2="7.62" y2="33.147" width="0.2032" layer="21"/>
-<polygon width="0.0762" layer="21">
-<vertex x="5.334" y="6.096"/>
-<vertex x="2.794" y="5.08"/>
-<vertex x="2.54" y="5.08"/>
-<vertex x="4.572" y="6.858"/>
-<vertex x="6.096" y="6.858"/>
-<vertex x="8.128" y="5.08"/>
-<vertex x="7.874" y="5.08"/>
-</polygon>
-<polygon width="0.0762" layer="22">
-<vertex x="5.334" y="35.687"/>
-<vertex x="7.874" y="34.671"/>
-<vertex x="8.128" y="34.671"/>
-<vertex x="6.096" y="36.449"/>
-<vertex x="4.572" y="36.449"/>
-<vertex x="2.54" y="34.671"/>
-<vertex x="2.794" y="34.671"/>
-</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -731,6 +713,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.6367" y="0.268225"/>
 <vertex x="-1.584884375" y="0.241403125"/>
 <vertex x="-1.57284375" y="0.225475"/>
+</polygon>
+</package>
+<package name="SMOL_SMALL">
+<polygon width="0.01" layer="21">
+<vertex x="0" y="0.01"/>
+<vertex x="1.78" y="-1.13"/>
+<vertex x="1.91" y="-1.13"/>
+<vertex x="0.26" y="0.64"/>
+<vertex x="0.25" y="0.65"/>
+<vertex x="-0.25" y="0.65"/>
+<vertex x="-0.25" y="0.64"/>
+<vertex x="-1.9" y="-1.13"/>
+<vertex x="-1.78" y="-1.13"/>
 </polygon>
 </package>
 </packages>
@@ -4341,9 +4336,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$16" library="output" package="5#5V0" value="" x="9.2075" y="31.9405" smashed="yes"/>
 <element name="U$11" library="output" package="MAX0" value="" x="9.2075" y="30.988" smashed="yes"/>
 <element name="U$8" library="output" package="IN0" value="" x="5.334" y="34.4805" smashed="yes" rot="MR0"/>
-<element name="U$17" library="output" package="OUT0" value="" x="5.334" y="4.6355" smashed="yes"/>
+<element name="U$17" library="output" package="OUT0" value="" x="5.334" y="4.572" smashed="yes"/>
 <element name="U$18" library="output" package="SM�L_POWER_LIPO0" value="" x="9.652" y="9.4615" smashed="yes" rot="R90"/>
 <element name="U$2" library="output" package="SM�L_POWER_LIPO0" value="" x="5.334" y="23.368" smashed="yes" rot="MR0"/>
+<element name="U$3" library="SparkX" package="SMOL_SMALL" value="SMOL_LOGOSMALL" x="5.334" y="6.4135" smashed="yes"/>
+<element name="U$9" library="SparkX" package="SMOL_SMALL" value="SMOL_LOGOSMALL" x="5.334" y="35.814" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
