@@ -1,16 +1,14 @@
 # SparkX smôl Power Board : LiPo
 
-[![SparkX smôl Power Board : LiPo (SPX-18359)]()](https://www.sparkfun.com/products/183659)
+[![SparkX smôl Power Board : LiPo (SPX-18622)](https://cdn.sparkfun.com/assets/parts/1/8/1/2/2/18622-smo__l_Power_Board_LiPo-01.jpg)](https://www.sparkfun.com/products/18622)
 
-[*SparkX smôl Power Board : LiPo (SPX-18359)*](https://www.sparkfun.com/products/18359)
+[*SparkX smôl Power Board : LiPo (SPX-18622)*](https://www.sparkfun.com/products/18622)
 
 A power board for smôl:
 - LiPo battery connector and charger
 - Fuel gauge
 - ATtiny841 for intelligent power management
 
-![Top.png](./img/Top.png)
-![Bottom.png](./img/Bottom.png)
 ![Dimensions.png](./img/Dimensions.png)
 
 ## Repository Contents
@@ -21,7 +19,7 @@ A power board for smôl:
 
 ## Product Versions
 
-- [SPX-18359](https://www.sparkfun.com/products/18359) - Original SparkX Release.
+- [SPX-18622](https://www.sparkfun.com/products/18622) - Original SparkX Release.
 
 ## License Information
 
